@@ -1,0 +1,141 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: wrap;
+	color: rgb(0, 88, 138);
+}
+
+body{
+	background: rgb(0,88,138);
+}
+
+.nav-top {
+    display: flex;
+	flex-direction: row;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    flex: 1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1rem;
+    color: rgb(0,88,138);
+    padding-left: 2rem;	
+}
+
+.conf-name {
+	flex:1;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    color: white;
+	margin:0;	
+}
+
+.udm-logo {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.udm-logo:hover {
+    transform: translateY(-10px);
+	background:rgb(0,125,190);
+ }
+
+.navbar{
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	height: 80px;
+	width: 100%;
+	top: 19rem;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+
+.navbar ul{
+	float: left;
+	margin-right: 20px;
+	
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgb(99,100,102);
+	border-radius: 2px;
+}
+
+.info{
+	position:relative;
+	display:flex;
+	flex-direction:row;
+}
+
+.description{
+	border: 2px solid black;
+	flex: 2;
+	font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+	color: white;
+}
+
+.announcements{
+	flex:1;
+	border: 2px solid black;
+	margin-left:2px;
+	display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.dateEdit{
+	padding: 1rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.date{
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #00ff00 0%, #ffffff 29%, #ff1361 67%, #fff800 100% );
+    background-size: 200% auto;
+    color: #fff;	
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+.list{
+	padding: 1rem;
+    font-weight: 300;
+    color: white;
+    font-size: 1.3rem;
+}
+
