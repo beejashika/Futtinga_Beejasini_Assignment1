@@ -139,3 +139,28 @@ body{
     font-size: 1.3rem;
 }
 
+.details-container{
+	display:flex;
+	flex:wrap;
+	
+}
+
+.sources{
+	flex:3;
+	flex-direction: column;
+	background-image: linear-gradient( #ffffff ,rgb(0,88,138));
+	justify-content:center;
+}
+
+.prev-conference{
+	background-image: linear-gradient( #ffffff ,rgb(0,88,138));
+	flex:1;
+}
+
+.prev{
+    color: black;
+	font-size: 2rem;
+	display:flex;
+	flex-direction:column;
+   
+}
