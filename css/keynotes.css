@@ -17,7 +17,7 @@
 
 .navbar ul{
 	float: left;
-	margin-right: 20px;
+
 	
 }
 .navbar ul li{
@@ -45,6 +45,7 @@
 }
 
 .abstract{
+    margin: 0px 20px 0px 20px;
 	color:black;
 	font-size:130%;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
